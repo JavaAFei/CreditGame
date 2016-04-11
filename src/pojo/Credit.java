@@ -3,16 +3,16 @@ package pojo;
 import java.util.Date;
 
 public class Credit {
-	// ĞÅÓÃ¿¨Ãû³Æ
+	// ä¿¡ç”¨å¡åç§°
 	public String cardName;
-	// ĞÅÓÃ¿¨¶î¶È
+	// ä¿¡ç”¨å¡é¢åº¦
 	public int cardPrice;
-	// »¹¿îÈÕ
+	// è¿˜æ¬¾æ—¥
 	public Date returnDate;
-	// ÕËµ¥ÈÕ
+	// è´¦å•æ—¥
 	public Date checkDate;
-	// ×ÜÇ·¿î
+	// æ€»æ¬ æ¬¾
 	public int owingPrice;
-	// ÒÑ³öÕËµ¥
+	// å·²å‡ºè´¦å•
 	public int checkPrice;
 }
