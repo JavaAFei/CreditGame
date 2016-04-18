@@ -19,6 +19,12 @@ public class Credit {
     //已出账单
     public int checkPrice;
 
+    public int returnNum;
+
+    public Credit() {
+
+    }
+
     public Credit(String cardName, int cardPrice, int returnDate, int checkDate, int owingPrice, int checkPrice) {
         this.cardName = cardName;
         this.cardPrice = cardPrice;
@@ -77,4 +83,11 @@ public class Credit {
         return checkPrice;
     }
 
+    public int getReturnNum() {
+        return returnNum;
+    }
+
+    public void setReturnNum(int returnNum) {
+        this.returnNum = returnNum;
+    }
 }
